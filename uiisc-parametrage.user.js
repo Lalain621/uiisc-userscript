@@ -1,24 +1,3 @@
-// ==UserScript==
-// @name         ** Gestion RIISC – Réglage Cellules & Attributions
-// @namespace    https://www.operateur112.fr/
-// @version      1.6.3
-// @description  Ouvrir Gestion RIISC – Réglage Cellules & Attributions → cocher véhicules + quantités + effectifs → choisir options.
-// @author       Lalain – Conrad
-// @license      BSD-3-Clause
-// @match        https://www.operateur112.fr/
-// @match        https://www.operateur112.fr/buildings/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
-// @grant        GM_addStyle
-// ==/UserScript==
-
-//Ouvrir Gestion RIISC – Réglage Cellules & Attributions → cocher véhicules + quantités + effectifs → choisir options (ignorer flotte, assignations).
-//Sauvegarder → les boutons « Acheter véhicules » & « Modifier personnel ».
-//Acheter véhicules → le script commande tout ce qui manque, assigne chaque cellule (remorques) aux VPCE ou VDSC correspondants, puis montre la pop-up de fin.
-//OK → la page se recharge ; vos nouveaux engins sont prêts. Fenêtre de confirmation	À la fin du processus achat/attribution, une pop-up s’affiche : « Achat de véhicules et Cellules attribués » + bouton OK qui ferme la pop-up et recharge la page.
-//Modifier le personnel (facultatif) → ajuste automatiquement la capacité équipage de chaque engin selon vos chiffres.
-//En résumé, ce userscript combine planification, achat en masse, attribution des cellules et réglage du personnel pour un bâtiment RIISC, le tout en quelques clics et sans re-saisir vos paramètres à chaque fois.
-
-
 /* ------------------------------------------------------------------ */
 /* 1)  Fonction a ne pas toucher                                                    */
 /* ------------------------------------------------------------------ */
